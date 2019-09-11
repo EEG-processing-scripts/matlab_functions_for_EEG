@@ -9,6 +9,7 @@ Information of authors and affiliation are intentionally deleted for double-blin
 
 # List of contents
 
+
 **1. get_Spectrogram.m**
 
     [spec_d, spec_t, spec_f] = get_Spectrogram( x, t, win_size, t_resolution )
@@ -16,6 +17,7 @@ Information of authors and affiliation are intentionally deleted for double-blin
 *Calculating amplitude spectrogram from signal x and time-vector t.*
 
 > - input arguments<br> x: Raw EEG signal (1-D vector)<br> y: Time vector (in millisecond resolution)<br> win_size: Size of sliding moving window (default: 2^10)<br> t_resolution: Jump size of sliding moving window (unit: sec, default: 0.1 sec)
+
 
 
 **2. get_TimeLag_xcorr.m**
@@ -28,6 +30,7 @@ Information of authors and affiliation are intentionally deleted for double-blin
 
 
 
+
 **3. get_PhaseSync.m**
 
     PLV = get_PhaseSync(x, y, [sd])
@@ -35,6 +38,7 @@ Information of authors and affiliation are intentionally deleted for double-blin
 *Calculating phase locking value (PLV) from filtered time-series signal x and y*
 
 > - input arguments<br> x, y: Filtered EEG signal (1-D vector)<br> sd: Standard deviation of outlier-cutting routine (Highly recommended to set around 3-6).
+
 
 
 **4. get_InstFreqDiff.m**
