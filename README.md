@@ -12,57 +12,61 @@ Information of authors and affiliation are intentionally deleted for double-blin
 # Contents
 
 **1. get_Spectrogram.m**
-% Usage: [spec_d, spec_t, spec_f] = get_Spectrogram( x, t, win_size, t_resolution )
 
-% Calculating amplitude spectrogram from signal x and time-vector t. 
+*Usage: [spec_d, spec_t, spec_f] = get_Spectrogram( x, t, win_size, t_resolution )*
 
-% -- input form --
+Calculating amplitude spectrogram from signal x and time-vector t. 
 
-% x: Raw EEG signal (1-D vector)
+-- input form --
 
-% y: Time vector (in millisecond resolution)
+x: Raw EEG signal (1-D vector)
 
-% win_size: Size of sliding moving window (default: 2^10)
+y: Time vector (in millisecond resolution)
 
-% t_resolution: Jump size of sliding moving window (unit: sec, default: 0.1 sec)
+win_size: Size of sliding moving window (default: 2^10)
+
+t_resolution: Jump size of sliding moving window (unit: sec, default: 0.1 sec)
 
 
 **2. get_TimeLag_xcorr.m**
-% Usage: lag = get_TimeLag_xcorr(x, y, maxlag)
 
-% Calculating time-lag between two time-series signal x, and y
+*Usage: lag = get_TimeLag_xcorr(x, y, maxlag)*
 
-% -- input form --
+Calculating time-lag between two time-series signal x, and y
 
-% x, y: (Filtered) EEG signal (1-D vector)
+-- input form --
 
-% maxlag: Maximum time lag to consider (default: half signal length)
+x, y: (Filtered) EEG signal (1-D vector)
+
+maxlag: Maximum time lag to consider (default: half signal length)
 
 
 
 **3. get_PhaseSync.m**
-% Usage: PLV = get_PhaseSync(x, y, [sd])
 
-% Calculating phase locking value (PLV) from filtered
+*Usage: PLV = get_PhaseSync(x, y, [sd])*
 
-% time-series signal x and y
+Calculating phase locking value (PLV) from filtered
 
-% -- input form --
+time-series signal x and y
 
-% x, y: Filtered EEG signal (1-D vector)
+-- input form --
 
-% sd: Standard deviation of outlier-cutting routine (Highly recommended to set around 3-6).
+x, y: Filtered EEG signal (1-D vector)
+
+sd: Standard deviation of outlier-cutting routine (Highly recommended to set around 3-6).
 
 
 **4. get_InstFreqDiff.m**
-% Usage: ifd = get_InstFreqDiff(x, y, srate)
 
-% Calculating instantaneous frequency differnece (IFD) from filtered time-series signal x and y
+*Usage: ifd = get_InstFreqDiff(x, y, srate)*
 
-% -- input form --
+Calculating instantaneous frequency differnece (IFD) from filtered time-series signal x and y
 
-% x, y: Filtered EEG signal (1-D vector)
+-- input form --
 
-% srate: Sampling rate
+x, y: Filtered EEG signal (1-D vector)
+
+srate: Sampling rate
 
 
