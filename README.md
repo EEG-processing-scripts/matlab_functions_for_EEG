@@ -1,6 +1,6 @@
 ** Matlab functions for analyzing EEG oscillations, including spectrogram, phase synchrony, etc.. **
 
-This repository are built to share EEG signal processing scripts used in the original research of XXX et al. (*in revision*).
+This repository is built to share EEG signal processing scripts used in the original research of XXX et al. (*in revision*).
 
 The script [demo.m] contains example usage of each function.
 
