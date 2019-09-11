@@ -1,5 +1,5 @@
-function [spec_d, spec_t, spec_f] = get_Spectrogram_jeelab( x, t, win_size, t_resolution )
-% Usage: [spec_d, spec_t, spec_f] = get_Spectrogram_jeelab( x, t, win_size, t_resolution )
+function [spec_d, spec_t, spec_f] = get_Spectrogram( x, t, win_size, t_resolution )
+% Usage: [spec_d, spec_t, spec_f] = get_Spectrogram( x, t, win_size, t_resolution )
 % 
 % Calculating amplitude spectrogram from signal x and time-vector t. 
 % 
