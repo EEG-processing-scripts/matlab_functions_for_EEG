@@ -15,16 +15,12 @@ Information of authors and affiliation are intentionally deleted for double-blin
 
     [spec_d, spec_t, spec_f] = get_Spectrogram( x, t, win_size, t_resolution )
 
-> Calculating amplitude spectrogram from signal x and time-vector t. 
+*Calculating amplitude spectrogram from signal x and time-vector t.*
 
 > -- input form --
-
 > x: Raw EEG signal (1-D vector)
-
 > y: Time vector (in millisecond resolution)
-
 > win_size: Size of sliding moving window (default: 2^10)
-
 > t_resolution: Jump size of sliding moving window (unit: sec, default: 0.1 sec)
 
 
@@ -32,12 +28,10 @@ Information of authors and affiliation are intentionally deleted for double-blin
 
     lag = get_TimeLag_xcorr(x, y, maxlag)
 
-> Calculating time-lag between two time-series signal x, and y
+*Calculating time-lag between two time-series signal x, and y*
 
 > -- input form --
-
 > x, y: (Filtered) EEG signal (1-D vector)
-
 > maxlag: Maximum time lag to consider (default: half signal length)
 
 
@@ -46,27 +40,21 @@ Information of authors and affiliation are intentionally deleted for double-blin
 
     PLV = get_PhaseSync(x, y, [sd])
 
-> Calculating phase locking value (PLV) from filtered
-
-> time-series signal x and y
+*Calculating phase locking value (PLV) from filtered time-series signal x and y*
 
 > -- input form --
-
 > x, y: Filtered EEG signal (1-D vector)
-
-sd: Standard deviation of outlier-cutting routine (Highly recommended to set around 3-6).
+> sd: Standard deviation of outlier-cutting routine (Highly recommended to set around 3-6).
 
 
 **4. get_InstFreqDiff.m**
 
     ifd = get_InstFreqDiff(x, y, srate)
 
-> Calculating instantaneous frequency differnece (IFD) from filtered time-series signal x and y
+*Calculating instantaneous frequency differnece (IFD) from filtered time-series signal x and y*
 
 > -- input form --
-
 > x, y: Filtered EEG signal (1-D vector)
-
 > srate: Sampling rate
 
 
