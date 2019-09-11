@@ -10,7 +10,6 @@ Information of authors and affiliation are intentionally deleted for double-blin
 
 # List of contents
 
-<br><br>
 **1. get_Spectrogram.m**
 
     [spec_d, spec_t, spec_f] = get_Spectrogram( x, t, win_size, t_resolution )
