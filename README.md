@@ -6,4 +6,4 @@ This repository are built to share EEG signal processing scripts used in the ori
 
 The script [demo.m] contains example usage of each function.
 
-Information of authors and affiliation are intentionally deleted for double-blind review process.
+Information of authors and affiliation are intentionally deleted for double-blind review process, and will be updated soon.
