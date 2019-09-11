@@ -1,5 +1,6 @@
 %% (0) Set environment
 close all; clear all
+addpath functions
 
 % create a directory to save figures
 fig_dir = 'figures/';
@@ -7,13 +8,13 @@ if ~isdir(fig_dir)
     mkdir(fig_dir);
     disp(['Figure directory [' pwd '/' fig_dir '] is created']);
 end
-addpath functions
 
 % import core functions
 func_spectrogram = @get_Spectrogram;
 func_timelag     = @get_TimeLag_xcorr;
 func_freqdiff    = @get_InstFreqDiff;
 func_synchrony   = @get_PhaseSync;
+
 
 %% (1) Amplitude spectrogram
 figure(1); clf; set(gcf, 'Color', [1 1 1]);
@@ -55,6 +56,7 @@ drawnow;
 
 saveas(gcf, [fig_dir 'Figure1-spectrogram.png']);
 
+
 %% (2) Time lag
 figure(2); clf; set(gcf, 'Color', [1 1 1]);
 
@@ -93,6 +95,7 @@ set(gca, 'FontSize', 11, 'LineWidth', 2' , 'Box', 'off' );
 plot( [0 0], ylim, 'k--' );
 
 saveas(gcf, [fig_dir 'Figure2-timelag.png']);
+
 
 %% (3) Instant Freq Difference
 figure(3); clf; set(gcf, 'Color', [1 1 1]);
@@ -141,8 +144,8 @@ set(gca, 'FontSize', 12, 'Box', 'off', 'LineWidth', 2);
 
 saveas(gcf, [fig_dir 'Figure3-instfreqdiff.png']);
 
-%% (4) Phase Synchrony 
 
+%% (4) Phase Synchrony 
 % Generate dummy signal
 srate = 1000; 
 unit_duration = 1; % sec
