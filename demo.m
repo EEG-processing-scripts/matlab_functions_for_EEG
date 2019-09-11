@@ -155,5 +155,3 @@ plv1 = func_synchrony( wave1, wave1 );
 plv2 = func_synchrony( wave1, wave2 );
 disp(['PLV of same signal [wave1, wave1] = ' num2str(plv1)])
 disp(['PLV of different signal [wave1, wave2] = ' num2str(plv2)])
-
-
