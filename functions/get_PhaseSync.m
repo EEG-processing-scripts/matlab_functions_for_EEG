@@ -1,5 +1,5 @@
-function PLV = get_PhaseSync_jeelab(x, y, sd)
-% Usage: PLV = get_PhaseSync_jeelab(x, y, [sd])
+function PLV = get_PhaseSync(x, y, sd)
+% Usage: PLV = get_PhaseSync(x, y, [sd])
 %
 % Calculating phase locking value (PLV) from filtered
 % time-series signal x and y
