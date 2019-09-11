@@ -6,6 +6,7 @@ The script [demo.m] contains example usage of each function.
 
 Information of authors and affiliation are intentionally deleted for double-blind review process, and will be updated soon.
 
+<br><br>
 
 # List of contents
 
