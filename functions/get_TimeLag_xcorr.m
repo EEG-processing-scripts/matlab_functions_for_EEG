@@ -1,5 +1,5 @@
-function [lag, coeff_func, lag_func] = get_TimeLag_xcorr_jeelab( x, y, maxlag )
-% Usage: lag = get_TimeLag_xcorr_jeelab(x, y, maxlag)
+function [lag, coeff_func, lag_func] = get_TimeLag_xcorr( x, y, maxlag )
+% Usage: lag = get_TimeLag_xcorr(x, y, maxlag)
 % 
 % Calculating time-lag between two time-series signal x, and y
 % 
