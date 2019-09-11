@@ -1,4 +1,4 @@
-function [ifd, h_x, h_y, ang_diff] = get_InstFreqDiff_jeelab( x, y, srate )
+function [ifd, h_x, h_y, ang_diff] = get_InstFreqDiff( x, y, srate )
 % Usage: ifd = get_InstFreqDiff_jeelab(x, y, srate)
 % 
 % Calculating instantaneous frequency differnece (IFD) from filtered
