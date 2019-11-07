@@ -18,8 +18,7 @@ The script [demo.m] contains example usage of each function.
 
 > - input arguments<br> x: Raw EEG signal (1-D vector)<br> y: Time vector (in millisecond resolution)<br> win_size: Size of sliding moving window (default: 2^10)<br> t_resolution: Jump size of sliding moving window (unit: sec, default: 0.1 sec)
 
-<br>
-![png](./figures/Figure1-spectrogram.png)
+![Fig 1](figures/Figure1-spectrogram.png)
 
 <br><br>
 **2. get_TimeLag_xcorr.m**
@@ -30,8 +29,7 @@ The script [demo.m] contains example usage of each function.
 
 > - input arguments<br> x, y: (Filtered) EEG signal (1-D vector)<br> maxlag: Maximum time lag to consider (default: half signal length)
 
-<br>
-![png](./figures/Figure2-timelag.png)
+![Fig 2](figures/Figure2-timelag.png)
 
 <br><br>
 **3. get_PhaseSync.m**
@@ -50,6 +48,6 @@ The script [demo.m] contains example usage of each function.
 *Calculating instantaneous frequency differnece (IFD) from filtered time-series signal x and y*
 
 > - input arguments<br> x, y: Filtered EEG signal (1-D vector)<br> srate: Sampling rate
-<br>
-![png](./figures/Figure3-instfreqdiff.png)
+
+![Fig 3](figures/Figure3-instfreqdiff.png)
 
