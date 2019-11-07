@@ -1,14 +1,14 @@
-** Matlab functions for analyzing EEG oscillations, including spectrogram, phase synchrony, etc.. **
+# Matlab functions for analyzing EEG oscillations, including spectrogram, phase synchrony, etc..
 
 This repository is built to share EEG signal processing scripts used in the original research of XXX et al. (*in revision*).
 
 The script [demo.m] contains example usage of each function.
 
-Information of authors and affiliation are intentionally deleted for double-blind review process, and will be updated soon.
+* Related publication: Hio-Been Han, Ka Eun Lee, & Jee Hyun Choi (2019). Functional dissociation of theta oscillations in the frontal and visual cortices and their long-range network during sustained attention, *eNeuro, (4)*, November 2019, ENEURO.0248-19.2019; DOI: 10.1523/ENEURO.0248-19.2019
 
 <br><br>
 
-# List of contents
+## List of contents
 
 **1. get_Spectrogram.m**
 
