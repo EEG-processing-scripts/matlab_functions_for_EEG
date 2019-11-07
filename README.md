@@ -4,7 +4,7 @@ This repository is built to share EEG signal processing scripts used in the orig
 
 The script [demo.m] contains example usage of each function.
 
-[* Related publication: Hio-Been Han, Ka Eun Lee, & Jee Hyun Choi (2019). **Functional dissociation of theta oscillations in the frontal and visual cortices and their long-range network during sustained attention**, *eNeuro, (4)*, November 2019, ENEURO.0248-19.2019; DOI: 10.1523/ENEURO.0248-19.2019](https://www.eneuro.org/content/early/2019/11/04/ENEURO.0248-19.2019).
+* Related publication: [Hio-Been Han, Ka Eun Lee, & Jee Hyun Choi (2019). **Functional dissociation of theta oscillations in the frontal and visual cortices and their long-range network during sustained attention**, *eNeuro, (4)*, November 2019, ENEURO.0248-19.2019; DOI: 10.1523/ENEURO.0248-19.2019](https://www.eneuro.org/content/early/2019/11/04/ENEURO.0248-19.2019).
 
 <br><br>
 
