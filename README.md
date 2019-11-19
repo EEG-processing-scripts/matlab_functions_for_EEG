@@ -1,6 +1,6 @@
 # Matlab functions for analyzing EEG oscillations, including spectrogram, phase synchrony, etc..
 
-This repository is built to share EEG signal processing scripts used in the original research of XXX et al. (*in revision*).
+This repository is built to share EEG signal processing scripts used in the original research of Han et al. (2019).
 
 The script [demo.m] contains example usage of each function.
 
@@ -12,7 +12,7 @@ The script [demo.m] contains example usage of each function.
 
 **1. get_Spectrogram.m**
 
-    [spec_d, spec_t, spec_f] = get_Spectrogram( x, t, win_size, t_resolution )
+    [spec_d, spec_t, spec_f] = get_Spectrogram( x, t, win_size, t_resolution );
 
 *Calculating amplitude spectrogram from signal x and time-vector t.*
 
@@ -23,7 +23,7 @@ The script [demo.m] contains example usage of each function.
 <br><br>
 **2. get_TimeLag_xcorr.m**
 
-    lag = get_TimeLag_xcorr(x, y, maxlag)
+    lag = get_TimeLag_xcorr(x, y, maxlag);
 
 *Calculating time-lag between two time-series signal x, and y*
 
@@ -43,7 +43,7 @@ The script [demo.m] contains example usage of each function.
 <br><br>
 **4. get_InstFreqDiff.m**
 
-    ifd = get_InstFreqDiff(x, y, srate)
+    ifd = get_InstFreqDiff(x, y, srate);
 
 *Calculating instantaneous frequency differnece (IFD) from filtered time-series signal x and y*
 
