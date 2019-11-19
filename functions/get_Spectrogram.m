@@ -30,7 +30,8 @@ for tIdx = 1:length(t_vec)
     idx = max(find( t<(t_vec(tIdx)))) - win_size*.5 :...
         max(find( t<(t_vec(tIdx))))   + win_size*.5 -1 ;
     actual_t = t(idx);
-    [fft_d,spec_f]= fft_half( hanning(length(idx))' .* x(idx), srate);
+    if tIdx==1, han=hanning(length(idx))'; end
+    [fft_d,spec_f]= fft_half( han .* x(idx), srate);
     spec_d( size(spec_d,1)+1 , :) = fft_d;
     spec_t( length(spec_t)+1 ) = mean(actual_t);
 end
