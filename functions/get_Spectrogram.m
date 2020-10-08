@@ -12,7 +12,7 @@ function [spec_d, spec_t, spec_f] = get_Spectrogram( x, t, win_size, t_resolutio
 % 2019-09-10
 % 
 
-%% Defulat condition
+%% Default condition
 if nargin < 5
     t_resolution = .1;
 end; if nargin < 4
